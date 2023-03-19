@@ -1,0 +1,23 @@
+#first{
+    padding: 5px;
+    border: dotted green 2px;
+    width: 200px;
+    height: 200px;
+    position:absolute;
+    top:75px;
+    left:30px;
+    
+}
+
+#second{
+    padding: 5px;
+    border: dotted green 2px;
+    width: 200px;
+    height: 200px;
+    
+   
+}
+.red{
+    color: red;
+    font-weight: bold;
+}

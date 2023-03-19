@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>HomeFinder</title>
+	<link rel="stylesheet" href="Question_8.css">
+	
+</head>
+<body>
+
+<div class="wrapper">
+    <div class="sidebar">
+        <h2>Navigation</h2>
+        <ul>
+            <li><a class="navigation" href="/Question_8/Home.html">Home Page</a></li>
+            <li><a class="navigation" href="/Question_8/Browse_pets.html"> Browse Available Pets</a></li>
+            <li><a class="navigation active" href="/Question_8/Find_Dog-Cat.html"> Find a dog/cat</a></li>
+            <li><a class="navigation" href="/Question_8/DogCare.html"> Dog Care</a></li>
+            <li><a class="navigation" href="/Question_8/CatCare.html">Cat Care</a></li>
+            <li><a class="navigation" href="/Question_8/Giveaway.html"> Have a pet to give away</a></li>
+            <li><a class="navigation" href="/Question_8/Contact.html"> Contact Us</a></li>
+        </ul> 
+
+    </div>
+    <div class="main_content">
+        <div class="header"> <h1 style="font-size: 40px;">
+            HomeFinder <a style="padding :0px"
+                href="/Question_8/Home.html"> <img class="logo"
+                    src="/Question_8/Images/LOGO.png" alt="logo image"></a> </h1>
+        </div>
+        <div class="content_form">
+            <div>
+            <form>
+                <fieldset style="padding:10px">
+                    
+                    <legend>Find a Dog</legend>
+    
+    
+                    <label >Breed:</label>
+                    <input type="text"  name="breed">
+
+                    <label >Does not matter:</label>
+                    <input type="checkbox"  name="does not matter" value="does not matter"><br><br>
+
+                    <label >Preferred age of dog?</label>
+                    <select name="age" >
+                        <option value="default"> --- </option>
+                        <option value="range1">0 - 1</option>
+                        <option value="range2">1 - 3</option>
+                        <option value="range3">3 - 7</option>
+                        <option value="range4">7 - over</option>
+                    </select><br><br>
+                    
+                    <label >Preferred gender?</label>
+                    <select name="gender" >
+                        <option value="default">---</option>
+                        <option value="male">Male</option>
+                        <option value="female">Female</option>
+                        <option value="na">Does not matter</option>
+                       
+                    </select><br><br>
+
+                    <label >Does your dog need to get along with any of these options [pick as many as apply]: </label><br>
+                    <label >Other dogs:</label>
+                    <input type="checkbox"  name="other dogs" value="other dogs">
+                    <label >Other cats:</label>
+                    <input type="checkbox"  name="other cats" value="other cats">
+                    <label >Small children:</label>
+                    <input type="checkbox"  name="children" value="children">
+                    
+                    <br><br>
+                
+    
+                    
+                </fieldset><br>
+                <label >Thank you for taking the time to fill out the
+                    survey!</label><br>
+                <input type="submit" value="Submit">
+                <input type="reset" value="Reset">
+                <br><br>
+
+            </form>
+            </div>
+            <div>
+                <form>
+                    <fieldset style="padding:10px">
+                        
+                        <legend>Find a Cat</legend>
+        
+        
+                        <label >Breed:</label>
+                        <input type="text"  name="breed">
+    
+                        <label>Does not matter:</label>
+                        <input type="checkbox"  name="does not matter" value="does not matter"><br><br>
+    
+                        <label >Preferred age of cat?</label>
+                        <select name="age" >
+                            <option value="default"> --- </option>
+                            <option value="range1">0 - 1</option>
+                            <option value="range2">1 - 3</option>
+                            <option value="range3">3 - 7</option>
+                            <option value="range4">7 - over</option>
+                        </select><br><br>
+                        
+                        <label>Preferred gender?</label>
+                        <select name="gender" >
+                            <option value="default">---</option>
+                            <option value="male">Male</option>
+                            <option value="female">Female</option>
+                            <option value="na">Does not matter</option>
+                           
+                        </select><br><br>
+    
+                        <label >Does your cat need to get along with any of these options [pick as many as apply]: </label><br>
+                        <label >Other dogs:</label>
+                        <input type="checkbox"  name="other dogs" value="other dogs">
+                        <label >Other cats:</label>
+                        <input type="checkbox"  name="other cats" value="other cats">
+                        <label >Small children:</label>
+                        <input type="checkbox"  name="children" value="children">
+                        
+                        <br><br>
+                    
+        
+                        
+                    </fieldset><br>
+                    <label >Thank you for taking the time to fill out the
+                        survey!</label><br>
+                    <input type="submit" value="Submit">
+                    <input type="reset" value="Reset">
+    
+                </form>
+                </div>
+                
+        </div>
+        <div style="padding-left: 50px;margin-top:30%">
+                        
+            <footer><button class="privacy" onclick="footer()">
+                Privacy/Disclaimer Statement</button></footer>
+            </div>
+
+    </div>
+
+    <script>
+        function footer() {
+          alert("Dear users,\n\nWe take the security and privacy of your personal information extremely seriously at HomeFinder. We want to reassure you that we would never sell your information or use it improperly in any way. We recognise how crucial it is to maintain the privacy of your personal information and will always take precautions to keep it secure. Strict security controls are in place on our website to guard  against unauthorised access to your information, and we'll never share or sell it to anybody.\n\nFurthermore, we value the accuracy and timeliness of  the data you give on our platform as a pet owner. Though we acknowledge that mistakes do occur, we want to make sure that any inaccurate information is quickly updated.\n\nPlease contact us if you think  any information on our site is inaccurate, and we will make the appropriate corrections. We appreciate your confidence in HomeFinder. In order to meet all of your pet-related demands, weare dedicated to giving you a safe and secure platform.\n");
+        }
+        </script>
+    
+</div>
+
+
+
+
+
+</body>
+</html>
+    
