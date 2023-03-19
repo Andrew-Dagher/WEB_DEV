@@ -27,6 +27,7 @@ function validateForm1() {
       return false;
     }
   }
+  
   if (!doesNotMatterCheckbox1.checked && breedInput1 === "") {
     alert("Please input a breed");
     event.preventDefault();
