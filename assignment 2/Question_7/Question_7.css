@@ -157,15 +157,7 @@ footer {
     
 
 }
-/* css for under_construction*/
-.under_construction {
-    font-size: 36px;
-    margin-top: 100px;
-    margin-left: 35%;
-    text-align: center;
-    align-items: center;
-    
-}
+
 
 button {
     float: left;
@@ -192,3 +184,68 @@ input[required]::before {
     color: red;
   }
   
+
+
+
+
+
+
+/* css for list of pets for adoption*/
+  .pet-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 20px;
+  }
+  
+  .pet {
+    width: calc(50% - 65px);
+    margin-bottom: 20px;
+    margin-right: 30px;
+    padding: 20px;
+    background-color: #f2f2f2;
+    border-radius: 5px;
+    box-shadow: 0px 0px 5px 1px rgba(0, 0, 0, 0.5);
+  }
+  /* remove margin for 2nd pet on the horizontal*/
+  .pet:nth-child(odd) {
+    margin-right: 0;
+  }
+  
+  
+  .pet img {
+    display: block;
+    margin: 0 auto 10px;
+    max-width: 100%;
+    height: auto;
+    border-radius:15px;
+    
+    box-shadow:0px 0px 5px 1px rgba(0, 0, 0, 0.5);;
+  }
+
+
+  .pet h2 {
+    margin-top: 0;
+    color:#594f8d;
+  }
+  
+  .pet p {
+    margin: 10px 0;
+  }
+  
+  .pet button {
+    display: block;
+    margin: 10px auto 0;
+    padding: 10px;
+    background-color: #00eaffb9;
+    color: black;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  .pet button:hover {
+    background-color: #594f8d;
+    color:#ececec ;
+  }
