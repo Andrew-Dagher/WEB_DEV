@@ -1,0 +1,9 @@
+German Shepherd:0 - 1:Male:Small Children,NA:He is a very loving dog that enjoys the outdoors.:Boby Jones:bobyj@gmail.com
+German Shepherd:0 - 1:Male:Other Dogs,Small Children,NA:His name is Jess and he is a very fun dog and likes to play tug.:John Adams:john.adams@gmail.com
+Bulldog:1 - 3:Male:NA:His name is Figgy and he likes to dig in mud.:Turner Joe:tj@gmail.com
+Golden Retriever:3 - 7:Female:Other Dogs,Other Cats,Small Children,NA:Her name is Luna ans she enjoys to cuddle.: Chloe Ty: coco@gmail.com
+Husky:1 - 3:Female:NA:She loves the snow and likes long walks.:Theo Road:theo_r@gmail.com
+Maine Coon:3 - 7:Female:NA:She likes to sleep and play with a string.:Timmy Brown:tim.b@gmail.com
+Bristish Shorthair:1 - 3:Male:Other Dogs,Other Cats:He likes to snack on goldfishes.:Johnny Test:johnny.test@gmail.com
+American Shorthair:7 - over:Male:Other Dogs,Other Cats,Small Children,NA:Enjoys to relax and slee on owner.:Kevin Low:kev.l@gmail.com
+Persian:1 - 3:Female:Other Dogs,Other Cats,Small Children,NA:Her naem is Garfield and she likes to eat lasagna.:Richard Bard:rico@gmail.com
