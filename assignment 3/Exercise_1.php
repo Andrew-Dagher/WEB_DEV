@@ -98,7 +98,7 @@
 	<h2>Testing find4Digits()</h2>
 	<?php
 	function find4Digits($str) {
-	    $numbers = explode(" ", $str);//adds a space
+	    $numbers = explode(" ", $str);//seperate at a space
 	    foreach($numbers as $number) {//storing element of array numbers into a string of number and check if that strings length is 4. doing this for each elements.
 	        if(strlen($number) == 4) {
 	            return $number;

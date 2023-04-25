@@ -9,7 +9,7 @@
         $visits = $_COOKIE['visits'] + 1;
     }
 
-    setcookie('visits', $visits, time() + (86400 * 30), "/"); // cookie will expire in 30 days
+    setcookie('visits', $visits, time() + (86400 * 30), "/"); // cookie "visits" will expire in 30 days
     
     if ($visits == 1) {
         echo "Welcome to my webpage! It is your first time that you are here.";
